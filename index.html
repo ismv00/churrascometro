@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascologia</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+
+        <div class="content1">
+            <img src="/assets/logo.png" alt="logo">
+        </div>
+
+        <div class="content2">
+            <div class="content-h1">
+                <h1>Churrascometro</h1>
+
+                <p>Vamos calcular o que iremos precisar para nosso churrasco?</p>
+            </div>           
+            
+            <div class="content-input">
+                <input type="number" id="adultos" name="adultos" placeholder="Adultos">
+                <input type="number" id="crianca" name="crianca" placeholder="Criancas">
+                <input type="number" id="duracao" name="duracao" placeholder="Duração em horas">
+
+                <button onclick="Calcular()">Calcular</button>
+
+            </div>
+            
+
+            <div id="resultado" class="resultado">
+
+            </div>
+
+            
+        </div>
+
+                
+        
+    </div>
+    <div class="rodape"><p>Todos os direitos reservados por&nbsp;<a href="https://github.com/ismv00">Igor S. Menezes</a></p></div>
+
+    <script src="scritp.js"></script>
+</body>
+</html>
